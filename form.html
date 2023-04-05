@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="form.css" rel="stylesheet" />
+    <title>MyForm</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form>
+        <h4>EDUCATION APPOINTMENT FORM</h4>
+        <input class="text-input" type="text" name="title" placeholder="Title" />
+        <input class="text-input" type="text" name="yourname" placeholder="Your Name" />
+        <input class="text-input" type="email" name="email" placeholder="Email" />
+        <input class="text-input" type="number" name="phone" placeholder="Phone Number" />
+        <div>
+          <select class="text-input select" name="courseType">
+            <option value="" selected>Course Type</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Com">B.Com</option>
+            <option value="BA">BA</option>
+          </select>
+        </div>
+        <h5>How would you like to be located?</h5>
+        <div>
+          <select class="text-input select" name="byPhone">
+            <option value="" selected>By Phone</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Com">B.Com</option>
+            <option value="BA">BA</option>
+          </select>
+        </div>
+        <div>
+          <select class="text-input select" name="hours">
+            <option value=""selected disabled hidden>Hours: 8am 10am</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Com">B.Com</option>
+            <option value="BA">BA</option>
+          </select>
+        </div>
+        <div class="check">
+            <input type="checkbox" name="terms"> I agree to the <a href="#"><span>Terms and Coditions.</span><a href="#"></a>
+        </div>
+        <button>Request an Appointment</button>
+      </div>
+      </form>
+    </div>
+  </body>
+</html>
